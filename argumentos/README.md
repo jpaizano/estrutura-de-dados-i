@@ -29,6 +29,12 @@ user@user-pc:~$ ./exemplo02 10 12 20
     argv[2] //recebe o valor 12
     argv[3] //recebe o valor 20
 ```
+Desta forma, podemos atribuir os valores passados via linha comando para variáveis.
+```c
+    mes = atoi(argv[2]);
+```
+
+
 ### Exemplo 02
 Para compilar com o GCC faça:
 ```console
