@@ -1,0 +1,4 @@
+# Ponteiros
+Um ponteiro (= apontador = pointer) é um tipo especial de variável que armazena um endereço.  Um ponteiro pode ter o valor <b>NULL</b> que é um endereço inválido. A macro <b>NULL</b> está definida na interface <b>stdlib.h</b> e seu valor é 0 (zero) na maioria dos computadores.
+
+Se um ponteiro p armazena o endereço de uma variável i, podemos dizer  p aponta para i  ou  p é o endereço de i.  (Em termos um pouco mais abstratos, diz-se que p é uma referência à variável i.)  Se um ponteiro p tem valor diferente de NULL então <b>*p</b> é o valor da variável apontada por <b>p</b>. Não confunda esse operador <b>*</b> com o operador de multiplicação! Por exemplo, se <b>i</b> é uma variável e <b>p</b> vale <b>&i</b> então dizer <b>*p</b> é o mesmo que dizer <b>i</b>.
