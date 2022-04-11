@@ -1,7 +1,7 @@
 # Ponteiros
 Um ponteiro (= apontador = pointer) é um tipo especial de variável que armazena um endereço.  Um ponteiro pode ter o valor <b>NULL</b> que é um endereço inválido. A macro <b>NULL</b> está definida na interface <b>stdlib.h</b> e seu valor é 0 (zero) na maioria dos computadores.
 
-Se um ponteiro <b>p</b> armazena o endereço de uma variável <b>i</b>, podemos dizer  p aponta para i  ou <b>p</b> é o endereço de <b>i</b>. Em termos um pouco mais abstratos, diz-se que <b>p</b> é uma referência à variável <b>i</b>. Se um ponteiro <b>p</b> tem valor diferente de <b>NULL</b> então <b>&#10035;p</b> é o valor da variável apontada por <b>p</b>. Não confunda esse operador <b>&#10035;</b> com o operador de multiplicação! Por exemplo, se <b>i</b> é uma variável e <b>p</b> vale <b>&i</b> então dizer <b>&#10035;p</b> é o mesmo que dizer <b>i</b>. (Referência: <a href="https://www.ime.usp.br/~pf/algoritmos/aulas/pont.html">ime.usp.br/</a>)
+Se um ponteiro <b>p</b> armazena o endereço de uma variável <b>i</b>, podemos dizer  p aponta para i  ou <b>p</b> é o endereço de <b>i</b>. Em termos um pouco mais abstratos, diz-se que <b>p</b> é uma referência à variável <b>i</b>. Se um ponteiro <b>p</b> tem valor diferente de <b>NULL</b> então <b>&#42;p</b> é o valor da variável apontada por <b>p</b>. Não confunda esse operador <b>&#42;</b> com o operador de multiplicação! Por exemplo, se <b>i</b> é uma variável e <b>p</b> vale <b>&i</b> então dizer <b>&#42;p</b> é o mesmo que dizer <b>i</b>. (Referência: <a href="https://www.ime.usp.br/~pf/algoritmos/aulas/pont.html">ime.usp.br/</a>)
 
 Suponha que a, b e c são variáveis inteiras e veja um de fazer  c = a + b:
 ```c
